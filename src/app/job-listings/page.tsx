@@ -21,7 +21,7 @@ const JobListingsPage: FC<JobListingsPageProps> = ({}) => {
 			<div className="text-3xl font-semibold">Job Listings</div>
 			<div className="mt-10">
 				<Table>
-					<TableCaption>A list of the recent job listings.</TableCaption>
+					<TableCaption>Recent job listings</TableCaption>
 					<TableHeader>
 						<TableRow>
 							{JOB_LISTING_COLUMNS.map((item: string, i: number) => (
